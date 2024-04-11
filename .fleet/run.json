@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Quarkus Dev Mode",
+            "type": "gradle",
+            "tasks": [
+                "quarkusDev"
+            ],
+            "args": ["-Dquarkus.debug=true"],
+        },
+        {
+            "type": "gradle",
+            "name": "Quarkus Build Mode",
+            "tasks": [
+                "quarkusBuild"
+            ]
+        }
+    ]
+}
